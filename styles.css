@@ -1,21 +1,22 @@
 body {
     display: flex;
     flex-direction: column;
-    font-family: 'Roboto','Times New Roman', Times, serif
+    font-family: 'Roboto','Times New Roman', Times, serif;
+    margin: 0;
 }
 
 
 .header {
-    border: 1px solid red;
     display: flex;
     justify-content: space-between;
     flex: 1;
     font-size: 28px;
     align-items: center;
     padding-left: 92px;
-    background-color: #180136;
     color: #de0854;
-    font-family: 'Abril Fatface', 'Roboto', 'Times New Roman', Times, serif
+    font-family: 'Abril Fatface', 'Roboto', 'Times New Roman', Times, serif;
+    background-color: #140134;
+    border-bottom: double #e6a25e;
 
 }
 
@@ -30,18 +31,20 @@ body {
 }
 
 .first {
-    border: 1px solid red;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #180136;
     color: #de0854;
+    background-color: #140134;
+    border-bottom: double #e6a25e;
 }
 
 .img1 {
+    border: 1px solid #e6a25e;
+    border-radius: 16px;
     width: 600px;
     height: 350px;
-    padding: 30px;
+    margin: 30px;
 }
 
 .firstcontent {
@@ -52,11 +55,19 @@ body {
 h1 {
     font-size: 64px;
     margin: 0;
+    color: #de0854;
+}
+
+h2 {
+    margin: 50px;
+    font-size: 48px;
+    color: #de0854;
+    font-style: italic;
 }
 
 .firstsubtext {
     font-size: 22px;
-    color: #ed337d;
+    color: #9e1f69;
 }
 
 .buttonfirst {
@@ -65,6 +76,139 @@ h1 {
     border-radius: 8px;
     background-color: #ffbe8c;
     font-size: 18px;
-    color: #180136;
-    font: 900;
+    color: #740756;
+    font-family: 'Alfa Slab One', 'Times New Roman', Times, serif
+}
+
+.second {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #140134;
+}
+
+.img2 {
+    border: 5px solid #7800ab;
+    width: 180px;
+    height: 180px;
+    border-radius: 10px;
+
+}
+
+.cubes {
+    display: flex;
+    justify-content: center;
+    gap: 72px;
+
+}
+
+.indcube {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 16px;;
+}
+
+.subtext {
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    text-align: center;
+    color: #de0854;
+}
+
+.quotebox {
+    display: flex;
+    justify-content: center;
+    background-color: #17003e;
+    margin: 0px;
+    padding-left: 400px;
+    padding-right: 400px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    border-top: double #e6a25e;
+    border-bottom: double #e6a25e;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    font-size: 48px;
+    align-items: flex-end;
+    color: #e6a25e;
+    margin: 50px;
+}
+
+.thor {
+    font-size: 32px;
+    color:#fead96;
+
+}
+
+.third {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #140134;
+}
+
+.aligncallcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    height: 150px;
+    width: 1100px;
+    background-color: #ad023e;
+    margin: 50px;
+    margin-bottom: 80px;
+}
+
+.callcontainer {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bothcalls {
+    display: flex;
+    flex-direction: column;
+}
+
+.call {
+    font-size: 28px;
+    color: #e6a25e;
+}
+
+.subcall {
+    font-size: 22px;
+    color: #fead96;
+}
+
+.buttoncall {
+    border-radius: 8px;
+    width: 135px;
+    height: 40px;
+    background-color: #ffbe8c;
+    font-size: 18px;
+    color: #740756;
+    font-family: 'Alfa Slab One', 'Times New Roman', Times, serif
+}
+
+.footer {
+    display: flex;
+    height: 100px;
+    background-color: #24045c;
+    justify-content: center;
+    align-items: center;
+    border-top: double #e6a25e;
+}
+.endnote {
+    font-size: 18px;
+    color:#e6a25e;
 }
